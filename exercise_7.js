@@ -21,6 +21,11 @@ if (typeof myArray[index] === 'number'){
   
 });
 
-console.log(`${numsEven} - количество четных элементов`);
-console.log(`${numsOdd} - количество нечетных элементов`);
-console.log(`${numsNull} - количество элементов равным 0`);
+if (numsNull === 0){
+  console.log(`${numsEven} - количество четных элементов`);
+  console.log(`${numsOdd} - количество нечетных элементов`);
+} else {
+  console.log(`${numsEven} - количество четных элементов`);
+  console.log(`${numsOdd} - количество нечетных элементов`);
+  console.log(`${numsNull} - количество элементов равным 0`);
+}
